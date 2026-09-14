@@ -19,4 +19,4 @@ def test_health():
 def test_sum():
     response = client.get("/sum?a=2&b=3")
     assert response.status_code == 200
-    assert response.json() == {"result": 999}
+    assert response.json() == {"result": 5}
